@@ -1,0 +1,33 @@
+h1, h2 {
+    background-color: black;
+    color: azure;
+    margin: 40px 0px 40px 0px
+}
+* {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+  }
+
+p {
+    margin-bottom: 30px
+} 
+
+a:link {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: purple;
+  }
+  
+  a:hover,
+  a:visited:hover{
+    color: orange;
+    text-decoration: orange;
+  }
+  
+  a:active {
+    color: red;
+  }
