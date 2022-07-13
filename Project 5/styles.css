@@ -1,0 +1,82 @@
+* {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    font-size: 50px;
+    color: #e50043;
+}
+.links {
+    display: flex;
+}
+.link {
+    margin-left: 25px;
+}
+.image-box {
+    position: relative;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.image-box p {
+    position: absolute;
+    color:#e50043;
+    font-style: normal;
+    font-size: 100px;
+}
+.border-container {
+    margin: 150px 200px 150px 200px
+}
+.border {
+    border:3px solid #F8BFC7;
+    border-radius: 20px;
+    padding: 24px;
+    font-size: 25px;
+}
+.border-title {
+    margin-bottom: 40px;
+}
+.bottles {
+    display: flex;
+    justify-content: space-between;
+    margin: 150px 0px 200px 0px;
+}
+.bottle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+}
+.bottle img {
+    margin-bottom: 48px;
+}
+.mini-bottle {
+    display: flex;
+    border: 3px solid #F8BFC7;
+    border-radius: 20px;
+    font-size: 25px;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.glass {
+    padding: 30px 80px 30px 80px;
+}
+.footer {
+    display: flex;
+    background-color: #F8BFC7;
+    justify-content: flex-start;
+    padding: 50px;
+    font-size: 25px;
+}
+.C{
+    color:aliceblue;
+}
