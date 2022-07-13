@@ -17,17 +17,17 @@
     margin-left: 25px;
 }
 .image-box {
-    position: relative;
+    background-image: url(images/evian_origins_logo.png);
     display: flex;
     align-items:center;
     justify-content: center;
+    height: 950px;
 }
 .image-box p {
-    position: absolute;
     color:#e50043;
     font-style: normal;
     font-size: 100px;
-}
+}    
 .border-container {
     margin: 150px 200px 150px 200px
 }
