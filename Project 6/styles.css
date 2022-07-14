@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+  }
+.header,
+.footer {
+    display: flex;
+    background-color: #0000ff;
+    justify-content: flex-start;
+    font-size: 25px;
+} 
+.feed,
+.c {
+    color: aliceblue;
+    padding: 35px 30px 35px 30px;
+} 
+.page{
+    display: flex;
+}
+.section {
+    display:flex;
+    border: 5px solid #000000;
+    align-items: center;
+    text-align: center;
+}
+
+  /* Макет для мобильных */
+  @media only screen and (max-width: 390px) {  
+    .body {
+        width: 390px;
+    }
+    .page {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .section {
+        width: 330px;
+        height: 165px;
+        padding: 20px;
+        margin: 20px;
+    }
+  }
+.footer {
+    margin-top: 10px;
+}  
+@media only screen and (min-width: 391px)  {
+    .body {
+        width: 1440px;
+    } 
+    .page {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 10px;
+        width: 100%;
+    }   
+    .section {
+        min-height: auto;
+        max-height: 300px;
+        min-width: auto;
+        max-width: 600px;
+        margin: 10px;
+        padding: 30px;
+        flex: 1 1 calc(50% - 100px);
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+    }
+}
