@@ -60,7 +60,7 @@
         min-height: auto;
         max-height: 300px;
         min-width: auto;
-        max-width: 600px;
+        max-width: 50%;
         margin: 10px;
         padding: 30px;
         flex: 1 1 calc(50% - 100px);
